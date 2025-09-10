@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 from PIL import Image
 
-st.title("Otsu Thresholding for Binary Segmentation")
+st.title("Thresholding for Binary Segmentation")
 
 # Warning message
 st.warning("Please do not upload any sensitive or personal data.")
