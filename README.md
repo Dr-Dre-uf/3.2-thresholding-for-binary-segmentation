@@ -1,19 +1,33 @@
-# :earth_americas: GDP dashboard template
+# Microskill 3: Traditional Biomedical Image Analysis (Streamlit App)
 
-A simple Streamlit app showing the GDP of different countries in the world.
+This interactive application accompanies the **Microskill 3** curriculum. It provides a visual sandbox for students to explore traditional computer vision algorithms, specifically Edge Detection (Sobel vs. Canny) and Thresholding (Otsu's Method).
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+* **Problem 3.1: Edge Detection:** Compare the noise sensitivity of Sobel gradients vs. Canny edge detection.
+* **Problem 3.2: Thresholding:** Experiment with Gaussian Blur pre-processing to see how it affects Otsu's binarization.
+* **Rigor & Reproducibility:** Upload custom images to test if algorithms generalize beyond synthetic data.
+* **Interactive Parameters:** Real-time sliders for kernel sizes, noise levels, and thresholds.
 
-1. Install the requirements
+## Installation
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+1.  **Clone or download** this repository.
+2.  (Optional) Create a virtual environment:
+    ```bash
+    python -m venv venv
+    # On Windows:
+    venv\Scripts\activate
+    # On Mac/Linux:
+    source venv/bin/activate
+    ```
+3.  **Install the dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-2. Run the app
+## Usage
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Run the Streamlit app locally with the following command:
+
+```bash
+streamlit run streamlit_app.py
