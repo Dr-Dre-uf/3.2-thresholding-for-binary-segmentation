@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from PIL import Image
 
-st.title("Image Processing App")
+st.title("Segmentation & Feature Extraction")
 
 # Sidebar: select processing method
 st.sidebar.header("Select Processing Method")
