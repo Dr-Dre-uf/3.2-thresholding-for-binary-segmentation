@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from PIL import Image
 
-st.title("Segmentation & Feature Extraction")
+st.title("Comparing Edge Detection Algoithms")
 
 # Sidebar: select processing method
 st.sidebar.header("Select Processing Method")
